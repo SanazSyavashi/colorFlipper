@@ -7,7 +7,7 @@ function changeBackGroundColorAndShow() {
 }
 
 function getRandomNum() {
-    return (Math.floor(Math.random() * 6));
+    return (Math.floor(Math.random() * colorArr.length));
 }
 
 function BackgroundColor(inputNum) {
