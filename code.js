@@ -15,7 +15,7 @@ function BackgroundColor(inputNum) {
 }
 
 function setBackGroundColor(color) {
-    document.querySelector("body").style.backgroundColor = color;
+    document.body.style.backgroundColor = color;
 }
 
 function showResult(color) {
