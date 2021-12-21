@@ -1,0 +1,23 @@
+.flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.backgroundColorBlack {
+    background-color: black;
+}
+
+.color {
+    color: white;
+}
+
+div {
+    height: 100vh;
+}
+
+body {
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
