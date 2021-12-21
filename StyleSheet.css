@@ -1,10 +1,3 @@
-.flexCenter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
 .backgroundColorBlack {
     background-color: black;
 }
@@ -13,11 +6,45 @@
     color: white;
 }
 
-div {
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 5vh; */
+    margin-left: 10vw;
+    margin-right: 10vw
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 20vw;
     height: 100vh;
 }
 
-body {
-    margin-left: 20vw;
-    margin-right: 20vw;
+.btn {
+    width: 10vw;
+}
+
+.nav-center {
+    width: 80vw;
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style-type: none;
+    margin-left: 5vw;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
